@@ -7,6 +7,9 @@ public class Ex_7 {
         if (n>20){
             throw new Exception("Number is too big");
         }
+        if(n<0){
+            throw new Exception("Number can not be negative");
+        }
         int result = 1;
         for(int i = 1;i<=n;i++){
             result*=i;

@@ -1,7 +1,5 @@
 package ru.mirea.lab1;
 
-import java.util.Random;
-
 public class Ex_5 {
     public static void main(String[] args){
 
@@ -9,7 +7,5 @@ public class Ex_5 {
         for (String arg : args) {
             System.out.println(arg);
         }
-
-
     }
 }
